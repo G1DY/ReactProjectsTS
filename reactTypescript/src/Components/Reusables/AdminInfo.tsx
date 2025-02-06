@@ -11,7 +11,7 @@ const AdminInfo: React.FC<AdminInfoProp> = ({ admin }) => {
       <p>Name: {admin.name}</p>
       <p>Email: {admin.email}</p>
       <p>Role: {admin.role}</p>
-      <p>Date: </p>
+      <p>Date: {admin.lastLogin.toLocaleString()} </p>
     </div>
   );
 };
