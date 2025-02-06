@@ -1,9 +1,9 @@
-import Counter from "./Components/Counter/Counter";
+import User from "./Components/UserDetails/User";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <User name="gideon" age={10} isStudent={true} />
     </div>
   );
 };
