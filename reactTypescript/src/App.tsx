@@ -1,9 +1,9 @@
-import User from "./Components/UserDetails/User";
+import Todos from "./Components/Todos/Todos";
 
 const App = () => {
   return (
     <div>
-      <User name="gideon" age={10} isStudent={true} />
+      <Todos />
     </div>
   );
 };
