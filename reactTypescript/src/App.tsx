@@ -1,9 +1,9 @@
-import Todos from "./Components/Todos/Todos";
+import UserProfile from "./Components/UserProfiles/userProfile";
 
 const App = () => {
   return (
     <div>
-      <Todos />
+      <UserProfile />
     </div>
   );
 };
