@@ -1,4 +1,4 @@
-import Forms from "./Components/Form1";
+import Form1 from "./Components/Form1";
 
 const App = () => {
   return (
