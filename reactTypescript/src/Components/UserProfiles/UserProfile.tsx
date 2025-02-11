@@ -48,6 +48,10 @@ const UserProfile = () => {
         value={profile.email}
         onChange={(e) => updateEmail(e.target.value)}
       />
+      <h1>Profile Summary</h1>
+      <p>Name: {profile.name}</p>
+      <p>Age: {profile.age}</p>
+      <p>Email: {profile.email}</p>
     </div>
   );
 };
