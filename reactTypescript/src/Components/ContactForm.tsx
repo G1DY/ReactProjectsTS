@@ -1,4 +1,4 @@
-import { FormDataEvent, ChangeEvent, useState } from "react";
+import { FormEvent, ChangeEvent, useState } from "react";
 
 interface ContactInfo {
   name: string;
@@ -15,8 +15,8 @@ const ContactForm = () => {
     setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
 
-  const handleSubmit = (e: FormDataEvent<HTMLFormElement>) => {
-    e.preventDefault;
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     console.log("Form Submitted", formdata);
   };
   return (
