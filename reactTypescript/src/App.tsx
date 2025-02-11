@@ -1,9 +1,9 @@
-import UserProfile from "./Components/UserProfiles/UserProfile";
+import Forms from "./Components/Form1";
 
 const App = () => {
   return (
     <div>
-      <UserProfile />
+      <Form1 />
     </div>
   );
 };
