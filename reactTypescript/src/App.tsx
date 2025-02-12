@@ -1,9 +1,9 @@
-import Counter2 from "./Components/ContextApi/Counter2";
+import Counter3 from "./Components/UseReducerApi/Counter3";
 
 const App = () => {
   return (
     <div>
-      <Counter2 />
+      <Counter3 />
     </div>
   );
 };
