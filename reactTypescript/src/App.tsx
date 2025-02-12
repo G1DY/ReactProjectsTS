@@ -1,9 +1,9 @@
-import Counter4 from "./Components/UseReducerApi2/Counter4";
+import UseEffectHook from "./Components/UseEffectHook/UseEffectHook";
 
 const App = () => {
   return (
     <div>
-      <Counter4 />
+      <UseEffectHook />
     </div>
   );
 };
