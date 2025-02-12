@@ -1,9 +1,9 @@
-import EventHandling from "./Components/EventHandling";
+import Counter2 from "./Components/ContextApi/Counter2";
 
 const App = () => {
   return (
     <div>
-      <EventHandling />
+      <Counter2 />
     </div>
   );
 };
