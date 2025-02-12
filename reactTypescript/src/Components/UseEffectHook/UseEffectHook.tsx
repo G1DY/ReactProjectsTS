@@ -20,7 +20,7 @@ const UseEffectHook = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://dummyjson.com/product/1");
+        const response = await fetch("https://dummyjson.com/product/5");
         const result = await response.json();
         setData(result);
       } catch (error) {

@@ -1,9 +1,9 @@
-import UseEffectHook from "./Components/UseEffectHook/UseEffectHook";
+import UserList from "./Components/UserList/UserList";
 
 const App = () => {
   return (
     <div>
-      <UseEffectHook />
+      <UserList />
     </div>
   );
 };
