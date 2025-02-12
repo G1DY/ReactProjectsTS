@@ -1,9 +1,9 @@
-import ContactForm from "./Components/ContactForm";
+import EventHandling from "./Components/EventHandling";
 
 const App = () => {
   return (
     <div>
-      <ContactForm />
+      <EventHandling />
     </div>
   );
 };
