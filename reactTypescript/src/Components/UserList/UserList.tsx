@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+// interfaces using typescript
 interface User {
   id: number;
   name: string;
@@ -8,9 +9,11 @@ interface User {
 }
 
 const UserList = () => {
+  // useState hooks
   const [users, setUsers] = useState<User[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+  // useState hook
   useEffect(() => {
     const fetchUsers = async () => {
       try {
